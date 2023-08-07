@@ -30,8 +30,14 @@ vi /opt/nexus/bin/nexus.vmoptions
 to 
 run_as_user="nexus"
 :wq!
+sudo 
+---------
+#start nexus
 
+sudo -u nexus /opt/nexus/bin/nexus start
+----------------
 
+#with docker:
 
 ```
 https://www.howtoforge.com/how-to-install-and-configure-nexus-repository-manager-on-ubuntu-20-04/
